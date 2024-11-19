@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    
+}
+
+/*estilo do cabeçalho*/
+header{
+  
+    padding: 30px 4%;
+    background-color: #1B1B1B;
+}
+
+header a{
+    color: #e7d8d8;
+    text-decoration: none; /*tirar o sublinhado*/
+   display: inline-block;
+   transition: 2s;
+}
+header a:hover{
+ color: #3F8E00;
+ transform: scale(1.08);  /*aumentar o zoom*/
+}
+
+header nav ul{
+    margin-left: 100px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    list-style: none;
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 50px;
+    gap: 250px;
+}
+/*fim do cabeçalho
+
+/*estilo do topo do site*/
+
+.container1{
+       padding: 10px 10%;
+       padding: 90px ;
+}
+
+.div_main{
+    display: flex;
+}
+.topo-do-site{  
+   
+    padding: 18px 4%;
+}
+.flex {   
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+h1{
+    color: #9C9C9C;
+    font-size: 62px;
+    margin: 10px;
+}
+
+p{
+   
+    color: #9C9C9C;
+    font-size: 20px;
+    margin: 20px 0;
+
+}
+.Container_esquerdo{
+    margin-left: 120px;
+}
+/*imagem*/
+ .images{
+   
+    width: 350px;
+    height: 350px;
+    border-radius: 110%;
+    margin-top: 100px;
+    
+   }
+
+   /*botao*/
+   .btn-contato{
+
+    padding: 15px 55px;
+    background: #3F8E00;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 36px;
+    cursor: pointer;
+    transition: .2s;
+   }
+   
+   .btn-contato:hover{
+    box-shadow: 0px 0px 8px #dc4bde3e;
+    transform: scale(1.03);
+    color: black;
+   
+   }
+
+   /*Rodape*/
+
+  
+   
+   
